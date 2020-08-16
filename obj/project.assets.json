@@ -1113,6 +1113,15 @@
           "build/_._": {}
         }
       },
+      "Xamarin.CircularSeekBar/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid/EDMTDev.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid/EDMTDev.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.1": {
         "type": "package",
         "dependencies": {
@@ -2667,6 +2676,18 @@
         "xamarin.build.download.nuspec"
       ]
     },
+    "Xamarin.CircularSeekBar/1.0.0": {
+      "sha512": "VVCHeg4U9MaLgN4Pu4yS9es9u/byCy5eeXAASVGIbktF1n7dIz+ex/2VsemAQeFtsL6H585nLkkgauzy/jX7jA==",
+      "type": "package",
+      "path": "xamarin.circularseekbar/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid/EDMTDev.dll",
+        "xamarin.circularseekbar.1.0.0.nupkg.sha512",
+        "xamarin.circularseekbar.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.5.3.1": {
       "sha512": "6sE3kGMhES7dsR8ll+ar+roEIFobjPfDskKNMsU4FF6cV27ZsdArGZHxe1QqPPJcMT6PzJsGvA3l5PNMZgw5ng==",
       "type": "package",
@@ -2840,6 +2861,7 @@
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.3",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.3",
+      "Xamarin.CircularSeekBar >= 1.0.0",
       "Xamarin.Essentials >= 1.5.3.1",
       "Xamarin.GooglePlayServices.Vision >= 71.1702.1"
     ]
@@ -2933,6 +2955,10 @@
           "Xamarin.Android.Support.v7.MediaRouter": {
             "target": "Package",
             "version": "[28.0.0.3, )"
+          },
+          "Xamarin.CircularSeekBar": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

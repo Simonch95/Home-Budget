@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "CapturePicture.dll" comes first in this list. */
 		"CapturePicture.dll",
+		"EDMTDev.dll",
 		"Google.Api.CommonProtos.dll",
 		"Google.Api.Gax.dll",
 		"Google.Api.Gax.Grpc.dll",

@@ -1,4 +1,5 @@
 C:\Users\Szymon\Desktop\CapturePicture\CapturePicture\obj\Debug\90\android\assets\CapturePicture.dll
+C:\Users\Szymon\Desktop\CapturePicture\CapturePicture\obj\Debug\90\android\assets\EDMTDev.dll
 C:\Users\Szymon\Desktop\CapturePicture\CapturePicture\obj\Debug\90\android\assets\Google.Api.CommonProtos.dll
 C:\Users\Szymon\Desktop\CapturePicture\CapturePicture\obj\Debug\90\android\assets\Google.Api.Gax.dll
 C:\Users\Szymon\Desktop\CapturePicture\CapturePicture\obj\Debug\90\android\assets\Google.Api.Gax.Grpc.dll
