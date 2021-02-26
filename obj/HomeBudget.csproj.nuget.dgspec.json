@@ -19,8 +19,6 @@
         ],
         "configFilePaths": [
           "C:\\Users\\Szymon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 19.2.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -28,8 +26,6 @@
           "monoandroid90"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -49,6 +45,14 @@
             "Google.Cloud.Vision.V1": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "Microcharts": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             },
             "System.Interactive.Async": {
               "target": "Package",
@@ -101,6 +105,14 @@
             "Xamarin.GooglePlayServices.Vision": {
               "target": "Package",
               "version": "[71.1702.1, )"
+            },
+            "Xamarin.Tesseract": {
+              "target": "Package",
+              "version": "[0.3.4, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           }
         }

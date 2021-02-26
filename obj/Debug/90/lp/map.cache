@@ -1,5 +1,11 @@
 EDMTDev
+Microcharts.Droid
 Plugin.Media
+SkiaSharp
+SkiaSharp.Views.Android
+SQLitePCLRaw.lib.e_sqlite3.android
+Tesseract.Binding.Droid
+Tesseract.Droid
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common

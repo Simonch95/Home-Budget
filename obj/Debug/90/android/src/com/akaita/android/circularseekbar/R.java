@@ -24,7 +24,7 @@ public final class R {
 		public static final int speedMultiplier = 0x7f030183;
 	}
 	public static final class string {
-		public static final int app_name = 0x7f0d0028;
+		public static final int app_name = 0x7f0d002a;
 	}
 	public static final class styleable {
 		public static final int[] CircularSeekBar = new int[] { 0x7f0300b9, 0x7f0300ff, 0x7f03012f, 0x7f030142, 0x7f03015b, 0x7f03015e, 0x7f03015f, 0x7f030160, 0x7f030168, 0x7f030169, 0x7f030177, 0x7f030178, 0x7f03017a, 0x7f030183 };

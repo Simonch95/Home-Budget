@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        app:cardCornerRadius="10dp"
+             app:cardBackgroundColor="@color/colorAccent"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wykres  wydatków"
+                android:textAlignment="center"
+                android:textSize="20dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e2e2e2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Microcharts.Droid.ChartView
+                    android:id="@+id/chartView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"/>
+            </LinearLayout>
+       
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <Button
+       android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        
+     
+        android:layout_alignParentBottom="true"     
+        android:layout_centerHorizontal="true" 
+        android:layout_below="@+id/ProgressBar"
+        android:id="@+id/MonthButton"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#5CC626"/>
+ 
+ <ImageButton
+       android:layout_width="61dp"
+        android:layout_height="61dp" 
+        android:layout_marginLeft="10dp"
+       android:layout_marginBottom="20dp"
+        android:id="@+id/PreviousMonthButton"      
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#fe810f"
+   android:layout_alignParentBottom="true"     
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/arrow_left"
+      
+    />
+     <ImageButton
+      android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/NextMonthButton"    
+        android:text="Entertainment"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#fe810f"
+     android:layout_alignParentBottom="true"     
+        android:layout_alignParentRight="true" 
+        android:src="@drawable/arrow_right2"
+        android:layout_gravity="bottom"
+        
+    />
+</RelativeLayout>
